@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Básico -->
+    <title>Diego Esteban Fierro | Perfil Profesional</title>
+    <meta name="description" content="Perfil profesional y portafolio multidisciplinario de Diego Esteban Fierro. Datos, gestión pública, diseño, idiomas, geografía y animación.">
+    <meta name="keywords" content="Diego Esteban Fierro, Portafolio, Gestión Pública, Protección de Datos, Diseño Gráfico, Animación, Idiomas">
+    <meta name="author" content="Diego Esteban Fierro">
+    
+    <!-- Open Graph / Redes Sociales (SEO) -->
+    <meta property="og:title" content="Diego Esteban Fierro | Perfil Profesional & Portafolio">
+    <meta property="og:description" content="Perfil multidisciplinario: Gestión Pública, Datos, Portafolio de Proyectos, Blogs e Idiomas.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="assets/avatar.jpg">
+
+    <link rel="stylesheet" href="styles.css">
+    <!-- Iconos FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <div class="profile-container">
+        <!-- Encabezado de Perfil con Selector de Idioma -->
+        <header class="profile-header">
+            <div class="cover-photo">
+                <!-- Selector de Idioma -->
+                <div class="lang-selector">
+                    <i class="fa-solid fa-globe"></i>
+                    <select id="language-select" onchange="changeLanguage(this.value)">
+                        <option value="es" selected>Español</option>
+                        <option value="en">English</option>
+                        <option value="pt">Português</option>
+                    </select>
+                </div>
+            </div>
+            <div class="profile-main">
+                <img id="avatar" src="" alt="Foto de perfil" class="profile-avatar">
+                <div class="profile-titles">
+                    <h1 id="nombre">Cargando...</h1>
+                    <p id="titulo" class="tagline"></p>
+                    <p id="ubicacion" class="location"><i class="fa-solid fa-location-dot"></i> <span></span></p>
+                </div>
+            </div>
+        </header>
+
+        <!-- Redes Sociales y Contacto Directo -->
+        <section id="social-links" class="social-links"></section>
+
+        <!-- Pestañas estilo Red Social -->
+        <nav class="profile-tabs">
+            <button class="tab-btn active" onclick="openTab(event, 'sobre-mi')" data-i18n="tabs.about">Sobre mí</button>
+            <button class="tab-btn" onclick="openTab(event, 'portafolio')" data-i18n="tabs.portfolio">Portafolio / Proyectos</button>
+            <button class="tab-btn" onclick="openTab(event, 'blogs')" data-i18n="tabs.blogs">Blogs</button>
+            <button class="tab-btn" onclick="openTab(event, 'educacion')" data-i18n="tabs.education">Educación</button>
+            <button class="tab-btn" onclick="openTab(event, 'intereses')" data-i18n="tabs.interests">Idiomas e Intereses</button>
+            <button class="tab-btn" onclick="openTab(event, 'galeria')" data-i18n="tabs.gallery">Galería</button>
+        </nav>
+
+        <!-- Contenedor Principal de Contenido -->
+        <main class="tab-content-container">
+            <section id="sobre-mi" class="tab-content active">
+                <h2 data-i18n="sections.bio_title">Resumen Profesional</h2>
+                <p id="bio-text"></p>
+            </section>
+
+            <section id="portafolio" class="tab-content">
+                <h2 data-i18n="sections.projects_title">Proyectos & Trabajos</h2>
+                <div id="proyectos-list" class="card-list"></div>
+            </section>
+
+            <section id="blogs" class="tab-content">
+                <h2 data-i18n="sections.blogs_title">Mis Blogs & Publicaciones</h2>
+                <div id="blogs-list" class="card-list"></div>
+            </section>
+
+            <section id="educacion" class="tab-content">
+                <h2 data-i18n="sections.education_title">Educación y Certificaciones</h2>
+                <div id="educacion-list" class="card-list"></div>
+            </section>
+
+            <section id="intereses" class="tab-content">
+                <h2 data-i18n="sections.languages_title">Idiomas</h2>
+                <ul id="idiomas-list" class="info-list"></ul>
+
+                <h2 data-i18n="sections.interests_title">Áreas de Interés & Habilidades</h2>
+                <div id="intereses-container"></div>
+            </section>
+
+            <section id="galeria" class="tab-content">
+                <h2 data-i18n="sections.gallery_title">Galería de Fotos & Eventos</h2>
+                <div id="galeria-grid" class="gallery-grid"></div>
+            </section>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
