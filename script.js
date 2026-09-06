@@ -1,13 +1,13 @@
 // Configuración unificada de redes sociales e información de contacto
 const socialLinksConfig = [
-    { nombre: "LinkedIn", url: "https://linkedin.com", icono: "fa-brands fa-linkedin" },
-    { nombre: "GitHub", url: "https://github.com", icono: "fa-brands fa-github" },
-    { nombre: "Facebook", url: "https://facebook.com", icono: "fa-brands fa-facebook" },
-    { nombre: "Instagram", url: "https://instagram.com", icono: "fa-brands fa-instagram" },
-    { nombre: "X (Twitter)", url: "https://x.com", icono: "fa-brands fa-x-twitter" },
-    { nombre: "WhatsApp", url: "https://wa.me/5491100000000", icono: "fa-brands fa-whatsapp" },
-    { nombre: "Telegram", url: "https://t.me/tuusuario", icono: "fa-brands fa-telegram" },
-    { nombre: "Email", url: "mailto:tuemail@ejemplo.com", icono: "fa-solid fa-envelope", i18nKey: "email_contact" }
+    { nombre: "LinkedIn", url: "https://ar.linkedin.com/in/diego-esteban-fierro-92b92a103", icono: "fa-brands fa-linkedin" },
+    { nombre: "GitHub", url: "https://github.com/DiegoFierro/", icono: "fa-brands fa-github" },
+    { nombre: "Facebook", url: "https://www.facebook.com/DiegoFierro.0/", icono: "fa-brands fa-facebook" },
+    { nombre: "Instagram", url: "https://www.instagram.com/fierrod3/", icono: "fa-brands fa-instagram" },
+    { nombre: "X (Twitter)", url: "https://x.com/DiegoFierro01", icono: "fa-brands fa-x-twitter" },
+    { nombre: "WhatsApp", url: "https://wa.me/5492920354677", icono: "fa-brands fa-whatsapp" },
+    { nombre: "Telegram", url: "https://t.me/fierro_de", icono: "fa-brands fa-telegram" },
+    { nombre: "Email", url: "mailto:diegoefierro@gmail.com", icono: "fa-solid fa-envelope", i18nKey: "email_contact" }
 ];
 
 let currentLangData = null;
