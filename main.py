@@ -2,10 +2,14 @@
 # Traducción a PyScript (Python en el navegador) del antiguo script.js
 # Toda la lógica de renderizado del perfil, cambio de idioma y pestañas
 # vive ahora aquí, ejecutada con Pyodide dentro del navegador.
+#
+# Los archivos de idioma (lang/*.yaml) se cargan y parsean en YAML en
+# lugar de JSON. La dependencia "pyyaml" se instala automáticamente vía
+# PyScript a partir de pyscript.toml.
 
 import asyncio
-import json
 
+import yaml
 from js import document, window, localStorage
 from pyodide.ffi import create_proxy
 from pyodide.http import pyfetch
@@ -35,11 +39,11 @@ async def load_language(lang):
     """Equivalente a loadLanguage(lang) en script.js"""
     global current_lang_data
     try:
-        response = await pyfetch(f"lang/{lang}.json")
+        response = await pyfetch(f"lang/{lang}.yaml")
         if not response.ok:
-            raise Exception(f"No se pudo cargar el archivo lang/{lang}.json")
+            raise Exception(f"No se pudo cargar el archivo lang/{lang}.yaml")
         text = await response.string()
-        data = json.loads(text)
+        data = yaml.safe_load(text)
 
         current_lang_data = data
         update_static_ui(data)
@@ -99,16 +103,22 @@ def render_social():
     container.innerHTML = "".join(html_parts)
 
 
+def _build_ext_link(url, link_text):
+    """Construye un enlace externo con ícono, o cadena vacía si no hay url."""
+    if not url:
+        return ""
+    return (
+        f'<a href="{url}" target="_blank" rel="noopener noreferrer" class="ext-link">'
+        f'{link_text} <i class="fa-solid fa-arrow-up-right-from-square"></i></a>'
+    )
+
+
 def render_proyectos(proyectos):
     container = document.getElementById("proyectos-list")
     link_text = current_lang_data["sections"]["view_link"]
     html_parts = []
     for p in proyectos:
-        link_html = (
-            f'<a href="{p["link"]}" target="_blank" rel="noopener noreferrer" class="ext-link">'
-            f'{link_text} <i class="fa-solid fa-arrow-up-right-from-square"></i></a>'
-            if p.get("link") else ""
-        )
+        link_html = _build_ext_link(p.get("link"), link_text)
         html_parts.append(f'''
         <article class="card">
             <div class="card-header">
@@ -127,11 +137,12 @@ def render_blogs(blogs):
     link_text = current_lang_data["sections"]["visit_blog"]
     html_parts = []
     for b in blogs:
+        link_html = _build_ext_link(b.get("url"), link_text)
         html_parts.append(f'''
         <article class="card">
             <h3><i class="{b["icono"]}"></i> {b["titulo"]}</h3>
             <p>{b["descripcion"]}</p>
-            <a href="{b["url"]}" target="_blank" rel="noopener noreferrer" class="ext-link">{link_text} <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            {link_html}
         </article>
         ''')
     container.innerHTML = "".join(html_parts)
@@ -142,11 +153,7 @@ def render_educacion(educacion):
     link_text = current_lang_data["sections"]["view_edu"]
     html_parts = []
     for e in educacion:
-        link_html = (
-            f'<a href="{e["link"]}" target="_blank" rel="noopener noreferrer" class="ext-link">'
-            f'{link_text} <i class="fa-solid fa-arrow-up-right-from-square"></i></a>'
-            if e.get("link") else ""
-        )
+        link_html = _build_ext_link(e.get("link"), link_text)
         html_parts.append(f'''
         <article class="card">
             <h3>{e["titulo"]}</h3>

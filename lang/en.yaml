@@ -1,0 +1,93 @@
+tabs:
+  about: About me
+  portfolio: Portfolio / Projects
+  blogs: Blogs
+  education: Education
+  interests: Languages & Interests
+  gallery: Gallery
+sections:
+  bio_title: Professional Overview
+  projects_title: Projects & Works
+  blogs_title: My Blogs & Publications
+  education_title: Education & Certifications
+  languages_title: Languages
+  interests_title: Areas of Interest & Skills
+  gallery_title: Photos & Events Gallery
+  view_link: View project / site
+  visit_blog: Visit Blog
+  view_edu: View institutional link
+  email_contact: Email Contact
+perfil:
+  nombre: Diego Esteban Fierro
+  titulo: Public Management & Data | Multidisciplinary
+  ubicacion: Native of Ñuble, Chile | Based in Río Negro, Argentina
+  bio: Passionate about the intersection of public management, data science, languages, geography, graphic design, and digital technologies.
+  avatar: assets/avatar.jpg
+blogs:
+- titulo: Public Management & Data Blog
+  descripcion: Articles and analysis on open data, public administration, and personal data protection.
+  url: https://tublog1.com
+  icono: fa-solid fa-chart-line
+- titulo: Languages & Geography Blog
+  descripcion: Reflections on linguistics, translation, and cartography.
+  url: https://tublog2.com
+  icono: fa-solid fa-earth-americas
+proyectos:
+- titulo: Open Data Web Portal
+  categoria: Programming & Web Development
+  descripcion: Interactive website for public management data visualization.
+  link: https://ejemplo.com/proyecto-web
+  icono: fa-solid fa-globe
+- titulo: Visual Identity & Illustration
+  categoria: Graphic Design
+  descripcion: Brand design, graphic pieces, and institutional materials.
+  link: https://behance.net/ejemplo
+  icono: fa-solid fa-palette
+- titulo: 2D Animation Short
+  categoria: Digital Animation
+  descripcion: Animation project developed in Animatron Studio.
+  link: https://youtube.com/ejemplo-animacion
+  icono: fa-solid fa-film
+educacion:
+- titulo: Expert in Personal Data Protection
+  institucion: Universidad Siglo 21
+  link: https://www.21.edu.ar
+- titulo: Specialization in Public Management & Data
+  institucion: ISC Formación Política
+  link: ''
+- titulo: Professional Graphic Design
+  institucion: Instituto Academix
+  link: ''
+- titulo: Business Organization and Administration
+  institucion: IPAP
+  link: ''
+idiomas:
+- nombre: Spanish
+  nivel: Native
+- nombre: English
+  nivel: Intermediate
+- nombre: Portuguese
+  nivel: Intermediate
+intereses_y_habilidades:
+- categoria: Knowledge & Management
+  items:
+  - Public Management
+  - Data Protection
+  - Data Analysis
+  - Administration
+- categoria: Design & Multimedia
+  items:
+  - Graphic Design
+  - Digital Animation (Animatron)
+  - Digital Editing
+- categoria: Areas of Interest
+  items:
+  - Geography
+  - Linguistics
+  - Public Policy
+  - Technology
+galeria:
+- src: assets/foto1.jpg
+  caption: Training & Language Workshop
+- src: assets/foto2.jpg
+  caption: In-person Hackathon / Tech Event

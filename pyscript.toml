@@ -1,0 +1,3 @@
+# Configuración de PyScript
+# Declara las dependencias que Pyodide debe instalar antes de ejecutar main.py.
+packages = ["pyyaml"]

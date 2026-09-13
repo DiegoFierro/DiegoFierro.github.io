@@ -1,0 +1,93 @@
+tabs:
+  about: Sobre mim
+  portfolio: Portfólio / Projetos
+  blogs: Blogs
+  education: Educação
+  interests: Idiomas e Interesses
+  gallery: Galeria
+sections:
+  bio_title: Resumo Profissional
+  projects_title: Projetos & Trabalhos
+  blogs_title: Meus Blogs & Publicações
+  education_title: Educação e Certificações
+  languages_title: Idiomas
+  interests_title: Áreas de Interesse & Habilidades
+  gallery_title: Galeria de Fotos & Eventos
+  view_link: Ver projeto / site
+  visit_blog: Visitar Blog
+  view_edu: Ver link institucional
+  email_contact: Contato Email
+perfil:
+  nombre: Diego Esteban Fierro
+  titulo: Gestão Pública & Dados | Multidisciplinar
+  ubicacion: Originário de Ñuble, Chile | Residente em Río Negro, Argentina
+  bio: Apaixonado pela interseção entre gestão pública, ciência de dados, idiomas, geografia, design gráfico e tecnologias digitais.
+  avatar: assets/avatar.jpg
+blogs:
+- titulo: Blog de Gestão Pública & Dados
+  descripcion: Artigos e análises sobre dados abertos, administração pública e proteção de dados.
+  url: https://tublog1.com
+  icono: fa-solid fa-chart-line
+- titulo: Blog de Idiomas & Geografia
+  descripcion: Reflexões sobre linguística, tradução e cartografia.
+  url: https://tublog2.com
+  icono: fa-solid fa-earth-americas
+proyectos:
+- titulo: Portal Web de Dados Abertos
+  categoria: Programação & Desenvolvimento Web
+  descripcion: Site interativo para visualização de dados de gestão pública.
+  link: https://ejemplo.com/proyecto-web
+  icono: fa-solid fa-globe
+- titulo: Identidade Visual e Ilustração
+  categoria: Design Gráfico
+  descripcion: Design de marca, peças gráficas e materiais institucionais.
+  link: https://behance.net/ejemplo
+  icono: fa-solid fa-palette
+- titulo: Curta de Animação 2D
+  categoria: Animação Digital
+  descripcion: Projeto de animação desenvolvido no Animatron Studio.
+  link: https://youtube.com/ejemplo-animacion
+  icono: fa-solid fa-film
+educacion:
+- titulo: Especialista em Proteção de Dados Pessoais
+  institucion: Universidad Siglo 21
+  link: https://www.21.edu.ar
+- titulo: Especialização em Gestão Pública e Dados
+  institucion: ISC Formación Política
+  link: ''
+- titulo: Design Gráfico Profissional
+  institucion: Instituto Academix
+  link: ''
+- titulo: Organização e Administração de Empresas
+  institucion: IPAP
+  link: ''
+idiomas:
+- nombre: Espanhol
+  nivel: Nativo
+- nombre: Inglês
+  nivel: Intermediário
+- nombre: Português
+  nivel: Intermediário
+intereses_y_habilidades:
+- categoria: Conhecimentos & Gestão
+  items:
+  - Gestão Pública
+  - Proteção de Dados
+  - Análise de Dados
+  - Administração
+- categoria: Design & Multimídia
+  items:
+  - Design Gráfico
+  - Animação Digital (Animatron)
+  - Edição Digital
+- categoria: Áreas de Interesse
+  items:
+  - Geografía
+  - Linguística
+  - Políticas Públicas
+  - Tecnologia
+galeria:
+- src: assets/foto1.jpg
+  caption: Capacitações e Oficina de Idiomas
+- src: assets/foto2.jpg
+  caption: Hackathon Presencial / Evento Tech
