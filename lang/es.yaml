@@ -75,50 +75,34 @@ proyectos:
 educacion:
 - titulo: Google AI Essentials
   institucion: Google
-  anio: 2025
-  descripcion: Fundamentos de inteligencia artificial generativa, desarrollo de prompts, evaluación de respuestas de IA e integración de herramientas de IA en flujos de trabajo profesionales.
   link: https://www.coursera.org/account/accomplishments/specialization/KT6O0F55PEGU
 
 - titulo: Google Prompting Essentials
   institucion: Google
-  anio: 2025
-  descripcion: Ingeniería de prompts avanzada, técnicas de comunicación efectiva con modelos LLM y optimización de resultados para productividad y resolución de problemas.
   link: https://www.coursera.org/account/accomplishments/specialization/AOOFINE026MY
 
 - titulo: Google Data Analytics
   institucion: Google
-  anio: 2025
-  descripcion: Análisis de datos empresarial, limpieza y transformación de datos, análisis mediante SQL, programación en R y visualización de datos con Tableau.
   link: https://www.coursera.org/account/accomplishments/specialization/RPCN363VT3Z9
 
 - titulo: Google Digital Marketing & E-commerce
   institucion: Google
-  anio: 2025
-  descripcion: Estrategias de marketing digital, optimización SEO/SEM, gestión de comercio electrónico, analítica de marketing, campañas de email y redes sociales.
   link: https://www.coursera.org/account/accomplishments/specialization/FR5QW5GSX2ZT
 
 - titulo: Google IT Support
   institucion: Google
-  anio: 2026
-  descripcion: Soporte técnico de TI, administración de redes y sistemas informáticos, fundamentos de infraestructura cloud, resolución de problemas y atención al cliente.
   link: https://www.coursera.org/account/accomplishments/specialization/BYGFZKKRUZTN
 
 - titulo: Google Project Management
   institucion: Google
-  anio: 2026
-  descripcion: Gestión de proyectos tradicional y metodologías ágiles (Scrum), planificación estratégica, análisis de riesgos, presupuesto y liderazgo de equipos.
   link: https://www.coursera.org/account/accomplishments/specialization/JSS1YJWLZKGO
 
 - titulo: Google UX Design
   institucion: Google
-  anio: 2026
-  descripcion: Diseño de experiencia de usuario (UX/UI), investigación de usuarios, creación de wireframes, prototipado interactivo en Figma y pruebas de usabilidad.
   link: https://www.coursera.org/account/accomplishments/specialization/MOJVNCBQAMVZ
 
 - titulo: Google Cybersecurity
   institucion: Google
-  anio: 2026
-  descripcion: Ciberseguridad, gestión de riesgos informáticos, detección y respuesta ante incidentes, seguridad de redes, programación en Python y uso de herramientas SIEM (Linux/SQL).
   link: https://www.coursera.org/account/accomplishments/specialization/YKQEGWTDGOAP
 
 idiomas:
