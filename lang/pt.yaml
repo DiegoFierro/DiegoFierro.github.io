@@ -24,43 +24,63 @@ perfil:
   bio: Apaixonado pela interseção entre gestão pública, ciência de dados, idiomas, geografia, design gráfico e tecnologias digitais.
   avatar: assets/avatar.jpg
 blogs:
-- titulo: Blog de Gestão Pública & Dados
-  descripcion: Artigos e análises sobre dados abertos, administração pública e proteção de dados.
-  url: https://tublog1.com
-  icono: fa-solid fa-chart-line
-- titulo: Blog de Idiomas & Geografia
-  descripcion: Reflexões sobre linguística, tradução e cartografia.
-  url: https://tublog2.com
-  icono: fa-solid fa-earth-americas
-proyectos:
-- titulo: Portal Web de Dados Abertos
-  categoria: Programação & Desenvolvimento Web
-  descripcion: Site interativo para visualização de dados de gestão pública.
-  link: https://ejemplo.com/proyecto-web
+#- titulo: Blog de Gestão Pública & Dados
+#  descripcion: Artigos e análises sobre dados abertos, administração pública e proteção de dados.
+#  url: https://tublog1.com
+#  icono: fa-solid fa-chart-line
+- titulo: La Gabbia (em Neolatino)
+  descripcion: Um espaço dedicado ao estudo, difusão e desenvolvimento da língua Neolatina, explorando a sua gramática, literatura e evolução.
+  url: https://lagabbianeolatina.blogspot.com/
   icono: fa-solid fa-globe
-- titulo: Identidade Visual e Ilustração
-  categoria: Design Gráfico
-  descripcion: Design de marca, peças gráficas e materiais institucionais.
-  link: https://behance.net/ejemplo
-  icono: fa-solid fa-palette
-- titulo: Curta de Animação 2D
-  categoria: Animação Digital
-  descripcion: Projeto de animação desenvolvido no Animatron Studio.
-  link: https://youtube.com/ejemplo-animacion
-  icono: fa-solid fa-film
+proyectos:
+- titulo: PyStack Open (em espanhol)
+  categoria: Programação & Desenvolvimento Web
+  descripcion: Plataforma e programa para o desenvolvimento de aplicações full-stack de nível de produção utilizando exclusivamente Python (FastAPI, Django, HTMX, Flet).
+  link: https://diegofierro.github.io/pystack-open/
+  icono: fa-brands fa-python
+#- titulo: Identidade Visual e Ilustração
+#  categoria: Design Gráfico
+#  descripcion: Design de marca, peças gráficas e materiais institucionais.
+#  link: https://behance.net/ejemplo
+#  icono: fa-solid fa-palette
+#- titulo: Curta de Animação 2D
+#  categoria: Animação Digital
+#  descripcion: Projeto de animação desenvolvido no Animatron Studio.
+#  link: https://youtube.com/ejemplo-animacion
+#  icono: fa-solid fa-film
 educacion:
-- titulo: Especialista em Proteção de Dados Pessoais
-  institucion: Universidad Siglo 21
-  link: https://www.21.edu.ar
-- titulo: Especialização em Gestão Pública e Dados
-  institucion: ISC Formación Política
-  link: ''
-- titulo: Design Gráfico Profissional
-  institucion: Instituto Academix
-  link: ''
-- titulo: Organização e Administração de Empresas
-  institucion: IPAP
-  link: ''
+- titulo: Google AI Essentials
+  institucion: Google
+  link: https://www.coursera.org/account/accomplishments/specialization/KT6O0F55PEGU
+
+- titulo: Google Prompting Essentials
+  institucion: Google
+  link: https://www.coursera.org/account/accomplishments/specialization/AOOFINE026MY
+
+- titulo: Google Data Analytics
+  institucion: Google
+  link: https://www.coursera.org/account/accomplishments/specialization/RPCN363VT3Z9
+
+- titulo: Google Digital Marketing & E-commerce
+  institucion: Google
+  link: https://www.coursera.org/account/accomplishments/specialization/FR5QW5GSX2ZT
+
+- titulo: Google IT Support
+  institucion: Google
+  link: https://www.coursera.org/account/accomplishments/specialization/BYGFZKKRUZTN
+
+- titulo: Google Project Management
+  institucion: Google
+  link: https://www.coursera.org/account/accomplishments/specialization/JSS1YJWLZKGO
+
+- titulo: Google UX Design
+  institucion: Google
+  link: https://www.coursera.org/account/accomplishments/specialization/MOJVNCBQAMVZ
+
+- titulo: Google Cybersecurity
+  institucion: Google
+  link: https://www.coursera.org/account/accomplishments/specialization/YKQEGWTDGOAP
+
 idiomas:
 - nombre: Espanhol
   nivel: Nativo
@@ -86,8 +106,8 @@ intereses_y_habilidades:
   - Linguística
   - Políticas Públicas
   - Tecnologia
-galeria:
-- src: assets/foto1.jpg
-  caption: Capacitações e Oficina de Idiomas
-- src: assets/foto2.jpg
-  caption: Hackathon Presencial / Evento Tech
+#galeria:
+#- src: assets/foto1.jpg
+#  caption: Capacitações e Oficina de Idiomas
+#- src: assets/foto2.jpg
+#  caption: Hackathon Presencial / Evento Tech
