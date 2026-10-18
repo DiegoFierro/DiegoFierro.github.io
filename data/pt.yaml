@@ -1,0 +1,115 @@
+tabs:
+  about: Sobre mim
+  portfolio: Portfólio / Projetos
+  blogs: Blogs
+  education: Educação
+  interests: Idiomas e Interesses
+  gallery: Galeria
+sections:
+  bio_title: Resumo Profissional
+  projects_title: Projetos & Trabalhos
+  blogs_title: Meus Blogs & Publicações
+  education_title: Educação e Certificações
+  languages_title: Idiomas
+  interests_title: Áreas de Interesse & Habilidades
+  gallery_title: Galeria de Fotos & Eventos
+  view_link: Ver projeto / site
+  visit_blog: Visitar Blog
+  view_edu: Ver link institucional
+  email_contact: Contato Email
+perfil:
+  nombre: Diego Esteban Fierro
+  titulo: Gestão Pública & Dados | Multidisciplinar
+  ubicacion: Originário de Ñuble, Chile | Residente em Río Negro, Argentina
+  bio: Apaixonado pela interseção entre gestão pública, ciência de dados, idiomas, geografia, design gráfico e tecnologias digitais.
+  avatar: avatar.jpg
+blogs:
+#- titulo: Blog de Gestão Pública & Dados
+#  descripcion: Artigos e análises sobre dados abertos, administração pública e proteção de dados.
+#  url: https://tublog1.com
+#  icono: fa-solid fa-chart-line
+- titulo: La Gabbia (em Neolatino)
+  descripcion: Um espaço dedicado ao estudo, difusão e desenvolvimento da língua Neolatina, explorando a sua gramática, literatura e evolução.
+  url: https://lagabbianeolatina.blogspot.com/
+  icono: fa-solid fa-globe
+proyectos:
+- titulo: PyStack Open (em espanhol | Em construção)
+  categoria: Programação & Desenvolvimento Web
+  descripcion: Plataforma e programa de estudos para construir aplicações de nível de produção full-stack, desktop e mobile utilizando Go de ponta a ponta (net/http, HTMX, sqlc, Wails, Fyne).
+  link: https://diegofierro.github.io/gostack-open/
+  icono: fa-brands fa-golang
+#- titulo: Identidade Visual e Ilustração
+#  categoria: Design Gráfico
+#  descripcion: Design de marca, peças gráficas e materiais institucionais.
+#  link: https://behance.net/ejemplo
+#  icono: fa-solid fa-palette
+#- titulo: Curta de Animação 2D
+#  categoria: Animação Digital
+#  descripcion: Projeto de animação desenvolvido no Animatron Studio.
+#  link: https://youtube.com/ejemplo-animacion
+#  icono: fa-solid fa-film
+educacion:
+- titulo: Google AI Essentials
+  institucion: Google
+  link: https://www.coursera.org/account/accomplishments/specialization/KT6O0F55PEGU
+
+- titulo: Google Prompting Essentials
+  institucion: Google
+  link: https://www.coursera.org/account/accomplishments/specialization/AOOFINE026MY
+
+- titulo: Google Data Analytics
+  institucion: Google
+  link: https://www.coursera.org/account/accomplishments/specialization/RPCN363VT3Z9
+
+- titulo: Google Digital Marketing & E-commerce
+  institucion: Google
+  link: https://www.coursera.org/account/accomplishments/specialization/FR5QW5GSX2ZT
+
+- titulo: Google IT Support
+  institucion: Google
+  link: https://www.coursera.org/account/accomplishments/specialization/BYGFZKKRUZTN
+
+- titulo: Google Project Management
+  institucion: Google
+  link: https://www.coursera.org/account/accomplishments/specialization/JSS1YJWLZKGO
+
+- titulo: Google UX Design
+  institucion: Google
+  link: https://www.coursera.org/account/accomplishments/specialization/MOJVNCBQAMVZ
+
+- titulo: Google Cybersecurity
+  institucion: Google
+  link: https://www.coursera.org/account/accomplishments/specialization/YKQEGWTDGOAP
+
+idiomas:
+- nombre: Espanhol
+  nivel: Nativo
+- nombre: Inglês
+  nivel: Intermediário
+- nombre: Português
+  nivel: Intermediário
+- nombre: Francês
+  nivel: Básico
+intereses_y_habilidades:
+- categoria: Conhecimentos & Gestão
+  items:
+  - Gestão Pública
+  - Proteção de Dados
+  - Análise de Dados
+  - Administração
+- categoria: Design & Multimídia
+  items:
+  - Design Gráfico
+  - Animação Digital (Animatron)
+  - Edição Digital
+- categoria: Áreas de Interesse
+  items:
+  - Geografía
+  - Linguística
+  - Políticas Públicas
+  - Tecnologia
+#galeria:
+#- src: gallery/foto1.jpg
+#  caption: Capacitações e Oficina de Idiomas
+#- src: gallery/foto2.jpg
+#  caption: Hackathon Presencial / Evento Tech

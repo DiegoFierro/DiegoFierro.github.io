@@ -1,0 +1,11 @@
+{{- /* Uso: {{ partial "icon.html" "fa-brands fa-golang" }}  (mismas clases que Font Awesome) */ -}}
+{{- $style := "solid" -}}{{- $name := "" -}}
+{{- range split . " " -}}
+  {{- if eq . "fa-brands" }}{{ $style = "brands" }}
+  {{- else if and (hasPrefix . "fa-") (ne . "fa-solid") }}{{ $name = strings.TrimPrefix "fa-" . }}{{ end -}}
+{{- end -}}
+{{- with resources.Get (printf "icons/%s/%s.svg" $style $name) -}}
+  {{- .Content | replaceRE `(?s)<!--.*?-->` "" | replaceRE `^<svg ` `<svg class="icon" aria-hidden="true" focusable="false" ` | safeHTML -}}
+{{- else -}}
+  {{- warnf "icono no encontrado: assets/icons/%s/%s.svg (de %q)" $style $name . -}}
+{{- end -}}

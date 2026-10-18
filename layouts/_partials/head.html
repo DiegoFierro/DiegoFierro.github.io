@@ -1,0 +1,40 @@
+{{- $d := index hugo.Data .Language.Lang -}}
+{{- $avatar := resources.Get $d.perfil.avatar -}}
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{ .Title }}</title>
+<meta name="description" content="{{ .Description }}">
+<meta name="keywords" content="{{ .Params.meta_keywords }}">
+<meta name="author" content="{{ $d.perfil.nombre }}">
+<meta name="theme-color" content="#121212">
+<link rel="canonical" href="{{ .Permalink }}">
+{{- range .AllTranslations }}
+<link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}">
+{{- end }}
+{{- range first 1 .AllTranslations }}
+<link rel="alternate" hreflang="x-default" href="{{ .Permalink }}">
+{{- end }}
+
+<meta property="og:title" content="{{ .Params.og_title }}">
+<meta property="og:description" content="{{ .Params.og_description }}">
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:locale" content="{{ .Language.Params.ogLocale }}">
+{{- with $avatar }}
+<meta property="og:image" content="{{ .Permalink }}">
+<meta property="og:image:width" content="{{ .Width }}">
+<meta property="og:image:height" content="{{ .Height }}">
+{{- end }}
+<meta name="twitter:card" content="summary">
+
+{{- $same := slice -}}
+{{- range hugo.Data.social }}{{ if hasPrefix .url "http" }}{{ $same = $same | append .url }}{{ end }}{{ end -}}
+{{- $ld := dict "@context" "https://schema.org" "@type" "Person" "name" $d.perfil.nombre "description" .Description "url" .Permalink "sameAs" $same -}}
+{{- with $avatar }}{{ $ld = merge $ld (dict "image" .Permalink) }}{{ end }}
+<script type="application/ld+json">{{ $ld | jsonify | safeJS }}</script>
+
+<link rel="icon" href="data:,">
+<!-- Iconos: Font Awesome Free 6.7.2 (CC BY 4.0) https://fontawesome.com/license/free -->
+{{- with resources.Get "css/main.css" | minify }}
+<style>{{ .Content | safeCSS }}</style>
+{{- end }}

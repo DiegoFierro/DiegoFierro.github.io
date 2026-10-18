@@ -1,0 +1,115 @@
+tabs:
+  about: À propos de moi
+  portfolio: Portfolio / Projets
+  blogs: Blogs
+  education: Éducation
+  interests: Langues et intérêts
+  gallery: Galerie
+sections:
+  bio_title: Aperçu professionnel
+  projects_title: Projets et travaux
+  blogs_title: Mes blogs et publications
+  education_title: Éducation et certifications
+  languages_title: Langues
+  interests_title: Domaines d'intérêt et compétences
+  gallery_title: Galerie de photos et d'événements
+  view_link: Voir le projet / site
+  visit_blog: Visiter le blog
+  view_edu: Voir le lien institutionnel
+  email_contact: Contact par e-mail
+perfil:
+  nombre: Diego Esteban Fierro
+  titulo: Gestion publique & Données | Pluridisciplinaire
+  ubicacion: Originaire de Ñuble, Chili | Basé à Río Negro, Argentine
+  bio: Passionné par l'intersection de la gestion publique, de la science des données, des langues, de la géographie, du design graphique et des technologies numériques.
+  avatar: avatar.jpg
+blogs:
+#- titulo: Public Management & Data Blog
+#  descripcion: Articles and analysis on open data, public administration, and personal data protection.
+#  url: https://tublog1.com
+#  icono: fa-solid fa-chart-line
+- titulo: La Gabbia (in Neolatin)
+  descripcion: Un espace dédié à l'étude, à la diffusion et au développement de la langue néolatine, explorant sa grammaire, sa littérature et son évolution.
+  url: https://lagabbianeolatina.blogspot.com/
+  icono: fa-solid fa-globe
+proyectos:
+- titulo: GoStack Open (en espagnol | en construction)
+  categoria: Éducation / Développement Web et Logiciel
+  descripcion: Plateforme et programme d'études pour la création d'applications full-stack, de bureau et mobiles prêtes pour la production en utilisant Go de bout en bout (net/http, HTMX, sqlc, Wails, Fyne).
+  link: https://diegofierro.github.io/gostack-open/
+  icono: fa-brands fa-golang
+#- titulo: Visual Identity & Illustration
+#  categoria: Graphic Design
+#  descripcion: Brand design, graphic pieces, and institutional materials.
+#  link: https://behance.net/ejemplo
+#  icono: fa-solid fa-palette
+#- titulo: 2D Animation Short
+#  categoria: Digital Animation
+#  descripcion: Animation project developed in Animatron Studio.
+#  link: https://youtube.com/ejemplo-animacion
+#  icono: fa-solid fa-film
+educacion:
+- titulo: Google AI Essentials
+  institucion: Google
+  link: https://www.coursera.org/account/accomplishments/specialization/KT6O0F55PEGU
+
+- titulo: Google Prompting Essentials
+  institucion: Google
+  link: https://www.coursera.org/account/accomplishments/specialization/AOOFINE026MY
+
+- titulo: Google Data Analytics
+  institucion: Google
+  link: https://www.coursera.org/account/accomplishments/specialization/RPCN363VT3Z9
+
+- titulo: Google Digital Marketing & E-commerce
+  institucion: Google
+  link: https://www.coursera.org/account/accomplishments/specialization/FR5QW5GSX2ZT
+
+- titulo: Google IT Support
+  institucion: Google
+  link: https://www.coursera.org/account/accomplishments/specialization/BYGFZKKRUZTN
+
+- titulo: Google Project Management
+  institucion: Google
+  link: https://www.coursera.org/account/accomplishments/specialization/JSS1YJWLZKGO
+
+- titulo: Google UX Design
+  institucion: Google
+  link: https://www.coursera.org/account/accomplishments/specialization/MOJVNCBQAMVZ
+
+- titulo: Google Cybersecurity
+  institucion: Google
+  link: https://www.coursera.org/account/accomplishments/specialization/YKQEGWTDGOAP
+
+idiomas:
+- nombre: Espagnol
+  nivel: Natif
+- nombre: Anglais
+  nivel: Intermédiaire
+- nombre: Portugais
+  nivel: Intermédiaire
+- nombre: Français
+  nivel: Élémentaire
+intereses_y_habilidades:
+- categoria: Connaissance et gestion
+  items:
+  - Gestion publique
+  - Protection des données
+  - Analyse des données
+  - Administration
+- categoria: Design et multimédia
+  items:
+  - Design graphique
+  - Animation numérique (Animatron)
+  - Montage numérique
+- categoria: Domaines d'intérêt
+  items:
+  - Géographie
+  - Linguistique
+  - Politiques publiques
+  - Technologie
+#galeria:
+#- src: gallery/foto1.jpg
+#  caption: Training & Language Workshop
+#- src: gallery/foto2.jpg
+#  caption: In-person Hackathon / Tech Event

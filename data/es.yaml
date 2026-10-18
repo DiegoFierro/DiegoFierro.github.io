@@ -1,0 +1,115 @@
+tabs:
+  about: Sobre mí
+  portfolio: Portafolio / Proyectos
+  blogs: Blogs
+  education: Educación
+  interests: Idiomas e Intereses
+  gallery: Galería
+sections:
+  bio_title: Resumen Profesional
+  projects_title: Proyectos & Trabajos
+  blogs_title: Mis Blogs & Publicaciones
+  education_title: Educación y Certificaciones
+  languages_title: Idiomas
+  interests_title: Áreas de Interés & Habilidades
+  gallery_title: Galería de Fotos & Eventos
+  view_link: Ver proyecto / sitio
+  visit_blog: Visitar Blog
+  view_edu: Ver enlace institucional
+  email_contact: Contacto Email
+perfil:
+  nombre: Diego Esteban Fierro
+  titulo: Gestión Pública & Datos | Multidisciplinario
+  ubicacion: Originario de Ñuble, Chile | Residente en Río Negro, Argentina
+  bio: Apasionado por la intersección entre la gestión pública, la ciencia de datos, los idiomas, la geografía, el diseño gráfico y las tecnologías digitales.
+  avatar: avatar.jpg
+blogs:
+#- titulo: Blog de Gestión Pública & Datos
+#  descripcion: Artículos y análisis sobre datos abiertos, administración pública y protección de datos.
+#  url: https://tublog1.com
+#  icono: fa-solid fa-chart-line
+- titulo: La Gabbia (en Neolatino)
+  descripcion: Un espacio dedicado al estudio, difusión y desarrollo de la lengua neolatina, explorando su gramática, literatura y evolución.
+  url: https://lagabbianeolatina.blogspot.com/
+  icono: fa-solid fa-globe
+proyectos:
+- titulo: GoStack Open (en construcción)
+  categoria: Educación / Desarrollo Web & Software
+  descripcion: Plataforma y programa de estudios para construir aplicaciones de grado de producción full-stack, de escritorio y móviles utilizando Go de extremo a extremo (net/http, HTMX, sqlc, Wails, Fyne).
+  link: https://diegofierro.github.io/gostack-open/
+  icono: fa-brands fa-golang
+#- titulo: Identidad Visual e Ilustración
+#  categoria: Diseño Gráfico
+#  descripcion: Diseño de marca, piezas gráficas y materiales institucionales.
+#  link: https://behance.net/ejemplo
+#  icono: fa-solid fa-palette
+#- titulo: Corto de Animación 2D
+#  categoria: Animación Digital
+#  descripcion: Proyecto de animación desarrollado en Animatron Studio.
+#  link: https://youtube.com/ejemplo-animacion
+#  icono: fa-solid fa-film
+educacion:
+- titulo: Google AI Essentials
+  institucion: Google
+  link: https://www.coursera.org/account/accomplishments/specialization/KT6O0F55PEGU
+
+- titulo: Google Prompting Essentials
+  institucion: Google
+  link: https://www.coursera.org/account/accomplishments/specialization/AOOFINE026MY
+
+- titulo: Google Data Analytics
+  institucion: Google
+  link: https://www.coursera.org/account/accomplishments/specialization/RPCN363VT3Z9
+
+- titulo: Google Digital Marketing & E-commerce
+  institucion: Google
+  link: https://www.coursera.org/account/accomplishments/specialization/FR5QW5GSX2ZT
+
+- titulo: Google IT Support
+  institucion: Google
+  link: https://www.coursera.org/account/accomplishments/specialization/BYGFZKKRUZTN
+
+- titulo: Google Project Management
+  institucion: Google
+  link: https://www.coursera.org/account/accomplishments/specialization/JSS1YJWLZKGO
+
+- titulo: Google UX Design
+  institucion: Google
+  link: https://www.coursera.org/account/accomplishments/specialization/MOJVNCBQAMVZ
+
+- titulo: Google Cybersecurity
+  institucion: Google
+  link: https://www.coursera.org/account/accomplishments/specialization/YKQEGWTDGOAP
+
+idiomas:
+- nombre: Español
+  nivel: Nativo
+- nombre: Inglés
+  nivel: Intermedio
+- nombre: Portugués
+  nivel: Intermedio
+- nombre: Francés
+  nivel: Básico
+intereses_y_habilidades:
+- categoria: Conocimientos & Gestión
+  items:
+  - Gestión Pública
+  - Protección de Datos
+  - Análisis de Datos
+  - Administración
+- categoria: Diseño & Multimedia
+  items:
+  - Diseño Gráfico
+  - Animación Digital (Animatron)
+  - Edición Digital
+- categoria: Áreas de Interés
+  items:
+  - Geografía
+  - Lingüística
+  - Políticas Públicas
+  - Tecnología
+galeria:
+#- src: gallery/foto1.jpg
+#  caption: Capacitaciones y Taller de Idiomas
+#- src: gallery/foto2.jpg
+#  caption: Hackathon Presencial / Evento Tech

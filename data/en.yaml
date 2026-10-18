@@ -1,0 +1,115 @@
+tabs:
+  about: About me
+  portfolio: Portfolio / Projects
+  blogs: Blogs
+  education: Education
+  interests: Languages & Interests
+  gallery: Gallery
+sections:
+  bio_title: Professional Overview
+  projects_title: Projects & Works
+  blogs_title: My Blogs & Publications
+  education_title: Education & Certifications
+  languages_title: Languages
+  interests_title: Areas of Interest & Skills
+  gallery_title: Photos & Events Gallery
+  view_link: View project / site
+  visit_blog: Visit Blog
+  view_edu: View institutional link
+  email_contact: Email Contact
+perfil:
+  nombre: Diego Esteban Fierro
+  titulo: Public Management & Data | Multidisciplinary
+  ubicacion: Native of Ñuble, Chile | Based in Río Negro, Argentina
+  bio: Passionate about the intersection of public management, data science, languages, geography, graphic design, and digital technologies.
+  avatar: avatar.jpg
+blogs:
+#- titulo: Public Management & Data Blog
+#  descripcion: Articles and analysis on open data, public administration, and personal data protection.
+#  url: https://tublog1.com
+#  icono: fa-solid fa-chart-line
+- titulo: La Gabbia (in Neolatin)
+  descripcion: A space dedicated to the study, dissemination, and development of the Neolatin language, exploring its grammar, literature, and evolution.
+  url: https://lagabbianeolatina.blogspot.com/
+  icono: fa-solid fa-globe
+proyectos:
+- titulo: GoStack Open (in Spanish | In construction)
+  categoria: Education / Web & Software Development
+  descripcion: Platform and syllabus for building production-grade full-stack, desktop, and mobile applications using Go end-to-end (net/http, HTMX, sqlc, Wails, Fyne).
+  link: https://diegofierro.github.io/gostack-open/
+  icono: fa-brands fa-golang
+#- titulo: Visual Identity & Illustration
+#  categoria: Graphic Design
+#  descripcion: Brand design, graphic pieces, and institutional materials.
+#  link: https://behance.net/ejemplo
+#  icono: fa-solid fa-palette
+#- titulo: 2D Animation Short
+#  categoria: Digital Animation
+#  descripcion: Animation project developed in Animatron Studio.
+#  link: https://youtube.com/ejemplo-animacion
+#  icono: fa-solid fa-film
+educacion:
+- titulo: Google AI Essentials
+  institucion: Google
+  link: https://www.coursera.org/account/accomplishments/specialization/KT6O0F55PEGU
+
+- titulo: Google Prompting Essentials
+  institucion: Google
+  link: https://www.coursera.org/account/accomplishments/specialization/AOOFINE026MY
+
+- titulo: Google Data Analytics
+  institucion: Google
+  link: https://www.coursera.org/account/accomplishments/specialization/RPCN363VT3Z9
+
+- titulo: Google Digital Marketing & E-commerce
+  institucion: Google
+  link: https://www.coursera.org/account/accomplishments/specialization/FR5QW5GSX2ZT
+
+- titulo: Google IT Support
+  institucion: Google
+  link: https://www.coursera.org/account/accomplishments/specialization/BYGFZKKRUZTN
+
+- titulo: Google Project Management
+  institucion: Google
+  link: https://www.coursera.org/account/accomplishments/specialization/JSS1YJWLZKGO
+
+- titulo: Google UX Design
+  institucion: Google
+  link: https://www.coursera.org/account/accomplishments/specialization/MOJVNCBQAMVZ
+
+- titulo: Google Cybersecurity
+  institucion: Google
+  link: https://www.coursera.org/account/accomplishments/specialization/YKQEGWTDGOAP
+
+idiomas:
+- nombre: Spanish
+  nivel: Native
+- nombre: English
+  nivel: Intermediate
+- nombre: Portuguese
+  nivel: Intermediate
+- nombre: French
+  nivel: Basic
+intereses_y_habilidades:
+- categoria: Knowledge & Management
+  items:
+  - Public Management
+  - Data Protection
+  - Data Analysis
+  - Administration
+- categoria: Design & Multimedia
+  items:
+  - Graphic Design
+  - Digital Animation (Animatron)
+  - Digital Editing
+- categoria: Areas of Interest
+  items:
+  - Geography
+  - Linguistics
+  - Public Policy
+  - Technology
+#galeria:
+#- src: gallery/foto1.jpg
+#  caption: Training & Language Workshop
+#- src: gallery/foto2.jpg
+#  caption: In-person Hackathon / Tech Event

@@ -1,0 +1,135 @@
+{{ define "main" }}
+{{- $d := index hugo.Data .Language.Lang -}}
+{{- $s := $d.sections -}}
+{{- $p := $d.perfil -}}
+{{- $avatar := resources.Get $p.avatar -}}
+<div class="profile-container">
+  <header class="profile-header">
+    <div class="cover-photo">
+      {{ partial "lang-switch.html" . }}
+    </div>
+    <div class="profile-main">
+      {{- with $avatar }}
+      {{- $s1 := .Resize "130x webp q85" }}
+      {{- $s2 := .Resize "260x webp q85" }}
+      <img src="{{ $s2.RelPermalink }}" srcset="{{ $s1.RelPermalink }} 130w, {{ $s2.RelPermalink }} 260w" sizes="130px" width="130" height="130" alt="{{ $p.nombre }}" class="profile-avatar" fetchpriority="high" decoding="async">
+      {{- end }}
+      <div class="profile-titles">
+        <h1>{{ $p.nombre }}</h1>
+        <p class="tagline">{{ $p.titulo }}</p>
+        <p class="location">{{ partial "icon.html" "fa-solid fa-location-dot" }} <span>{{ $p.ubicacion }}</span></p>
+      </div>
+    </div>
+  </header>
+
+  <section class="social-links">
+    {{- range hugo.Data.social }}
+    {{- $label := .name }}{{ with .label_key }}{{ with index $s . }}{{ $label = . }}{{ end }}{{ end }}
+    <a href="{{ .url }}" target="_blank" rel="noopener noreferrer">{{ partial "icon.html" .icon }} {{ $label }}</a>
+    {{- end }}
+  </section>
+
+  {{- $hasProjects := $d.proyectos }}{{ $hasBlogs := $d.blogs }}{{ $hasEdu := $d.educacion }}{{ $hasGallery := $d.galeria }}
+  <nav class="profile-tabs" role="tablist">
+    <a class="tab-btn active" role="tab" href="#sobre-mi">{{ $d.tabs.about }}</a>
+    {{- if $hasProjects }}<a class="tab-btn" role="tab" href="#portafolio">{{ $d.tabs.portfolio }}</a>{{ end }}
+    {{- if $hasBlogs }}<a class="tab-btn" role="tab" href="#blogs">{{ $d.tabs.blogs }}</a>{{ end }}
+    {{- if $hasEdu }}<a class="tab-btn" role="tab" href="#educacion">{{ $d.tabs.education }}</a>{{ end }}
+    <a class="tab-btn" role="tab" href="#intereses">{{ $d.tabs.interests }}</a>
+    {{- if $hasGallery }}<a class="tab-btn" role="tab" href="#galeria">{{ $d.tabs.gallery }}</a>{{ end }}
+  </nav>
+
+  <main class="tab-content-container">
+    <section id="sobre-mi" class="tab-content active" role="tabpanel">
+      <h2>{{ $s.bio_title }}</h2>
+      <p>{{ $p.bio }}</p>
+    </section>
+
+    {{- with $hasProjects }}
+    <section id="portafolio" class="tab-content" role="tabpanel">
+      <h2>{{ $s.projects_title }}</h2>
+      <div class="card-list">
+        {{- range . }}
+        <article class="card">
+          <div class="card-header">
+            <h3>{{ partial "icon.html" .icono }} {{ .titulo }}</h3>
+            <span class="badge">{{ .categoria }}</span>
+          </div>
+          <p>{{ .descripcion }}</p>
+          {{ partial "ext-link.html" (dict "url" .link "text" $s.view_link) }}
+        </article>
+        {{- end }}
+      </div>
+    </section>
+    {{- end }}
+
+    {{- with $hasBlogs }}
+    <section id="blogs" class="tab-content" role="tabpanel">
+      <h2>{{ $s.blogs_title }}</h2>
+      <div class="card-list">
+        {{- range . }}
+        <article class="card">
+          <h3>{{ partial "icon.html" .icono }} {{ .titulo }}</h3>
+          <p>{{ .descripcion }}</p>
+          {{ partial "ext-link.html" (dict "url" .url "text" $s.visit_blog) }}
+        </article>
+        {{- end }}
+      </div>
+    </section>
+    {{- end }}
+
+    {{- with $hasEdu }}
+    <section id="educacion" class="tab-content" role="tabpanel">
+      <h2>{{ $s.education_title }}</h2>
+      <div class="card-list">
+        {{- range . }}
+        <article class="card">
+          <h3>{{ .titulo }}</h3>
+          <p class="institution">{{ .institucion }}</p>
+          {{ partial "ext-link.html" (dict "url" .link "text" $s.view_edu) }}
+        </article>
+        {{- end }}
+      </div>
+    </section>
+    {{- end }}
+
+    <section id="intereses" class="tab-content" role="tabpanel">
+      <h2>{{ $s.languages_title }}</h2>
+      <ul class="info-list">
+        {{- range $d.idiomas }}
+        <li><strong>{{ .nombre }}:</strong> {{ .nivel }}</li>
+        {{- end }}
+      </ul>
+
+      <h2>{{ $s.interests_title }}</h2>
+      {{- range $d.intereses_y_habilidades }}
+      <div class="interest-group">
+        <h3>{{ .categoria }}</h3>
+        <div class="skills-grid">
+          {{- range .items }}<span class="skill-tag">{{ . }}</span>{{ end }}
+        </div>
+      </div>
+      {{- end }}
+    </section>
+
+    {{- with $hasGallery }}
+    <section id="galeria" class="tab-content" role="tabpanel">
+      <h2>{{ $s.gallery_title }}</h2>
+      <div class="gallery-grid">
+        {{- range . }}
+        {{- $cap := .caption }}
+        {{- with resources.Get .src }}
+        {{- $thumb := .Fill "360x280 webp q80" }}
+        {{- $full := .Resize "1600x webp q85" }}
+        <a href="{{ $full.RelPermalink }}" target="_blank" rel="noopener noreferrer" class="gallery-card" title="{{ $cap }}">
+          <img src="{{ $thumb.RelPermalink }}" width="{{ $thumb.Width }}" height="{{ $thumb.Height }}" alt="{{ $cap }}" loading="lazy" decoding="async">
+          <p class="caption">{{ $cap }}</p>
+        </a>
+        {{- else }}{{ warnf "galería: no existe assets/%s" .src }}{{ end }}
+        {{- end }}
+      </div>
+    </section>
+    {{- end }}
+  </main>
+</div>
+{{ end }}

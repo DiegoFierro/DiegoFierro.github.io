@@ -1,0 +1,7 @@
+<nav class="lang-selector" aria-label="Language">
+  {{ partial "icon.html" "fa-solid fa-globe" }}
+  {{- $cur := .Language.Lang }}
+  {{- range .AllTranslations }}
+  <a href="{{ .RelPermalink }}" hreflang="{{ .Language.Lang }}" lang="{{ .Language.Lang }}" title="{{ .Language.Label }}"{{ if eq .Language.Lang $cur }} aria-current="true"{{ end }}>{{ upper .Language.Lang }}</a>
+  {{- end }}
+</nav>

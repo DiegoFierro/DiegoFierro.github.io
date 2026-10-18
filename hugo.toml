@@ -1,0 +1,32 @@
+baseURL = "https://diegofierro.github.io/"
+title = "Diego Esteban Fierro"
+
+defaultContentLanguage = "es"
+defaultContentLanguageInSubdir = false   # español en "/", resto en /en/ /pt/ /fr/
+
+enableRobotsTXT = true
+disableKinds = ["RSS", "taxonomy", "term"]
+
+[languages.es]
+  label = "Español"
+  weight = 1
+  [languages.es.params]
+    ogLocale = "es_AR"
+
+[languages.en]
+  label = "English"
+  weight = 2
+  [languages.en.params]
+    ogLocale = "en_US"
+
+[languages.pt]
+  label = "Português"
+  weight = 3
+  [languages.pt.params]
+    ogLocale = "pt_BR"
+
+[languages.fr]
+  label = "Français"
+  weight = 4
+  [languages.fr.params]
+    ogLocale = "fr_FR"

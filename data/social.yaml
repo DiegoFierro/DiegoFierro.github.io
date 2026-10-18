@@ -1,0 +1,27 @@
+# Redes y contacto (iguales en todos los idiomas).
+# `label_key`: si existe, la etiqueta se toma de sections.<label_key> del idioma activo.
+- name: LinkedIn
+  url: https://ar.linkedin.com/in/diego-esteban-fierro-92b92a103
+  icon: fa-brands fa-linkedin
+- name: GitHub
+  url: https://github.com/DiegoFierro/
+  icon: fa-brands fa-github
+- name: Facebook
+  url: https://www.facebook.com/DiegoFierro.0/
+  icon: fa-brands fa-facebook
+- name: Instagram
+  url: https://www.instagram.com/fierrod3/
+  icon: fa-brands fa-instagram
+- name: X (Twitter)
+  url: https://x.com/DiegoFierro01
+  icon: fa-brands fa-x-twitter
+- name: WhatsApp
+  url: https://wa.me/5492920354677
+  icon: fa-brands fa-whatsapp
+- name: Telegram
+  url: https://t.me/fierro_de
+  icon: fa-brands fa-telegram
+- name: Email
+  url: mailto:diegoefierro@gmail.com
+  icon: fa-solid fa-envelope
+  label_key: email_contact
