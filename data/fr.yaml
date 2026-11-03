@@ -30,7 +30,7 @@ blogs:
 #  icono: fa-solid fa-chart-line
 - titulo: La Gabbia (in Neolatin)
   descripcion: Un espace dédié à l'étude, à la diffusion et au développement de la langue néolatine, explorant sa grammaire, sa littérature et son évolution.
-  url: https://lagabbianeolatina.blogspot.com/
+  url: https://diegofierro.github.io/la-gabbia/
   icono: fa-solid fa-globe
 proyectos:
 - titulo: GoStack Open (en espagnol | en construction)
