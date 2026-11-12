@@ -1,0 +1,115 @@
+tabs:
+  about: Chi sono
+  portfolio: Portfolio / Progetti
+  blogs: Blog
+  education: Formazione
+  interests: Lingue e Interessi
+  gallery: Galleria
+sections:
+  bio_title: Profilo Professionale
+  projects_title: Progetti e Lavori
+  blogs_title: I miei Blog e Pubblicazioni
+  education_title: Formazione e Certificazioni
+  languages_title: Lingue
+  interests_title: Aree di Interesse e Competenze
+  gallery_title: Galleria Foto ed Eventi
+  view_link: Vedi progetto / sito
+  visit_blog: Visita il Blog
+  view_edu: Vedi link istituzionale
+  email_contact: Contatto Email
+perfil:
+  nombre: Diego Esteban Fierro
+  titulo: Gestione Pubblica e Dati | Multidisciplinare
+  ubicacion: Originario di Ñuble, Cile | Residente a Río Negro, Argentina
+  bio: Appassionato dell'intersezione tra gestione pubblica, scienza dei dati, lingue, geografia, graphic design e tecnologie digitali.
+  avatar: avatar.jpg
+blogs:
+#- titulo: Public Management & Data Blog
+#  descripcion: Articles and analysis on open data, public administration, and personal data protection.
+#  url: https://tublog1.com
+#  icono: fa-solid fa-chart-line
+- titulo: La Gabbia (in Neolatino)
+  descripcion: Uno spazio dedicato allo studio, alla diffusione e allo sviluppo della lingua neolatina, esplorandone la grammatica, la letteratura e l'evoluzione.
+  url: https://diegofierro.github.io/la-gabbia/
+  icono: fa-solid fa-globe
+proyectos:
+- titulo: GoStack Open (in spagnolo | In costruzione)
+  categoria: Formazione / Sviluppo Web e Software
+  descripcion: Piattaforma e programma didattico per la creazione di applicazioni full-stack, desktop e mobile di livello produttivo utilizzando Go end-to-end (net/http, HTMX, sqlc, Wails, Fyne).
+  link: https://diegofierro.github.io/gostack-open/
+  icono: fa-brands fa-golang
+#- titulo: Visual Identity & Illustration
+#  categoria: Graphic Design
+#  descripcion: Brand design, graphic pieces, and institutional materials.
+#  link: https://behance.net/ejemplo
+#  icono: fa-solid fa-palette
+#- titulo: 2D Animation Short
+#  categoria: Digital Animation
+#  descripcion: Animation project developed in Animatron Studio.
+#  link: https://youtube.com/ejemplo-animacion
+#  icono: fa-solid fa-film
+educacion:
+- titulo: Google AI Essentials
+  institucion: Google
+  link: https://www.coursera.org/account/accomplishments/specialization/KT6O0F55PEGU
+
+- titulo: Google Prompting Essentials
+  institucion: Google
+  link: https://www.coursera.org/account/accomplishments/specialization/AOOFINE026MY
+
+- titulo: Google Data Analytics
+  institucion: Google
+  link: https://www.coursera.org/account/accomplishments/specialization/RPCN363VT3Z9
+
+- titulo: Google Digital Marketing & E-commerce
+  institucion: Google
+  link: https://www.coursera.org/account/accomplishments/specialization/FR5QW5GSX2ZT
+
+- titulo: Google IT Support
+  institucion: Google
+  link: https://www.coursera.org/account/accomplishments/specialization/BYGFZKKRUZTN
+
+- titulo: Google Project Management
+  institucion: Google
+  link: https://www.coursera.org/account/accomplishments/specialization/JSS1YJWLZKGO
+
+- titulo: Google UX Design
+  institucion: Google
+  link: https://www.coursera.org/account/accomplishments/specialization/MOJVNCBQAMVZ
+
+- titulo: Google Cybersecurity
+  institucion: Google
+  link: https://www.coursera.org/account/accomplishments/specialization/YKQEGWTDGOAP
+
+idiomas:
+- nombre: Spagnolo
+  nivel: Madrelingua
+- nombre: Inglese
+  nivel: Intermedio
+- nombre: Portoghese
+  nivel: Intermedio
+- nombre: Francese
+  nivel: Base
+intereses_y_habilidades:
+- categoria: Conoscenze e Gestione
+  items:
+  - Gestione Pubblica
+  - Protezione dei Dati
+  - Analisi dei Dati
+  - Amministrazione
+- categoria: Design e Multimedia
+  items:
+  - Graphic Design
+  - Animazione Digitale (Animatron)
+  - Editing Digitale
+- categoria: Aree di Interesse
+  items:
+  - Geografia
+  - Linguistica
+  - Politiche Pubbliche
+  - Tecnologia
+#galeria:
+#- src: gallery/foto1.jpg
+#  caption: Training & Language Workshop
+#- src: gallery/foto2.jpg
+#  caption: In-person Hackathon / Tech Event
