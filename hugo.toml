@@ -30,3 +30,9 @@ disableKinds = ["RSS", "taxonomy", "term"]
   weight = 4
   [languages.fr.params]
     ogLocale = "fr_FR"
+
+[languages.id]
+  label = "Bahasa Indonesia"
+  weight = 5
+  [languages.id.params]
+    ogLocale = "id_ID"
