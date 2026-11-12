@@ -36,3 +36,9 @@ disableKinds = ["RSS", "taxonomy", "term"]
   weight = 5
   [languages.id.params]
     ogLocale = "id_ID"
+
+[languages.it]
+  label = "Italiano"
+  weight = 6
+  [languages.it.params]
+    ogLocale = "it_IT"
