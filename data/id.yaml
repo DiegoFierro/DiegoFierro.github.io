@@ -1,0 +1,115 @@
+tabs:
+  about: Tentang saya
+  portfolio: Portofolio / Proyek
+  blogs: Blog
+  education: Pendidikan
+  interests: Bahasa & Minat
+  gallery: Galeri
+sections:
+  bio_title: Ringkasan Profesional
+  projects_title: Proyek & Karya
+  blogs_title: Blog & Publikasi Saya
+  education_title: Pendidikan & Sertifikasi
+  languages_title: Bahasa
+  interests_title: Bidang Minat & Keterampilan
+  gallery_title: Galeri Foto & Acara
+  view_link: Lihat proyek / situs
+  visit_blog: Kunjungi Blog
+  view_edu: Lihat tautan institusional
+  email_contact: Kontak Email
+perfil:
+  nombre: Diego Esteban Fierro
+  titulo: Manajemen Publik & Data | Multidisiplin
+  ubicacion: Asal Ñuble, Chili | Berbasis di Río Negro, Argentina
+  bio: Bersemangat tentang persimpangan manajemen publik, sains data, bahasa, geografi, desain grafis, dan teknologi digital.
+  avatar: avatar.jpg
+blogs:
+#- titulo: Public Management & Data Blog
+#  descripcion: Articles and analysis on open data, public administration, and personal data protection.
+#  url: https://tublog1.com
+#  icono: fa-solid fa-chart-line
+- titulo: La Gabbia (dalam bahasa Neolatin)
+  descripcion: Sebuah ruang yang didedikasikan untuk studi, penyebaran, dan pengembangan bahasa Neolatin, menjelajahi tata bahasa, sastra, dan evolusinya.
+  url: https://diegofierro.github.io/la-gabbia/
+  icono: fa-solid fa-globe
+proyectos:
+- titulo: GoStack Open (dalam bahasa Spanyol | Dalam pembangunan)
+  categoria: Pendidikan / Pengembangan Web & Perangkat Lunak
+  descripcion: Platform dan silabus untuk membangun aplikasi full-stack, desktop, dan seluler tingkat produksi menggunakan Go dari ujung ke ujung (net/http, HTMX, sqlc, Wails, Fyne).
+  link: https://diegofierro.github.io/gostack-open/
+  icono: fa-brands fa-golang
+#- titulo: Visual Identity & Illustration
+#  categoria: Graphic Design
+#  descripcion: Brand design, graphic pieces, and institutional materials.
+#  link: https://behance.net/ejemplo
+#  icono: fa-solid fa-palette
+#- titulo: 2D Animation Short
+#  categoria: Digital Animation
+#  descripcion: Animation project developed in Animatron Studio.
+#  link: https://youtube.com/ejemplo-animacion
+#  icono: fa-solid fa-film
+educacion:
+- titulo: Google AI Essentials
+  institucion: Google
+  link: https://www.coursera.org/account/accomplishments/specialization/KT6O0F55PEGU
+
+- titulo: Google Prompting Essentials
+  institucion: Google
+  link: https://www.coursera.org/account/accomplishments/specialization/AOOFINE026MY
+
+- titulo: Google Data Analytics
+  institucion: Google
+  link: https://www.coursera.org/account/accomplishments/specialization/RPCN363VT3Z9
+
+- titulo: Google Digital Marketing & E-commerce
+  institucion: Google
+  link: https://www.coursera.org/account/accomplishments/specialization/FR5QW5GSX2ZT
+
+- titulo: Google IT Support
+  institucion: Google
+  link: https://www.coursera.org/account/accomplishments/specialization/BYGFZKKRUZTN
+
+- titulo: Google Project Management
+  institucion: Google
+  link: https://www.coursera.org/account/accomplishments/specialization/JSS1YJWLZKGO
+
+- titulo: Google UX Design
+  institucion: Google
+  link: https://www.coursera.org/account/accomplishments/specialization/MOJVNCBQAMVZ
+
+- titulo: Google Cybersecurity
+  institucion: Google
+  link: https://www.coursera.org/account/accomplishments/specialization/YKQEGWTDGOAP
+
+idiomas:
+- nombre: Bahasa Spanyol
+  nivel: Penutur Asli
+- nombre: Bahasa Inggris
+  nivel: Menengah
+- nombre: Bahasa Portugis
+  nivel: Menengah
+- nombre: Bahasa Prancis
+  nivel: Dasar
+intereses_y_habilidades:
+- categoria: Pengetahuan & Manajemen
+  items:
+  - Manajemen Publik
+  - Perlindungan Data
+  - Analisis Data
+  - Administrasi
+- categoria: Desain & Multimedia
+  items:
+  - Desain Grafis
+  - Animasi Digital (Animatron)
+  - Penyuntingan Digital
+- categoria: Bidang Minat
+  items:
+  - Geografi
+  - Linguistik
+  - Kebijakan Publik
+  - Teknologi
+#galeria:
+#- src: gallery/foto1.jpg
+#  caption: Training & Language Workshop
+#- src: gallery/foto2.jpg
+#  caption: In-person Hackathon / Tech Event
